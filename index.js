@@ -1,6 +1,8 @@
 const express = require("express")
 const app = express()
 const port = 3000
+
+// Put your keys here.  Don't worry, these aren't my keys 🙂
 const stripe_secret = "sk_test_joWk2pblKJDKBNyG4p8PbpyM"
 const stripe_webhook_secret = "whsec_KuU2HxauCcDvbsoLNtt2KuxUx32MbVyq"
 
